@@ -13,5 +13,15 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-typewriter')({
+      wordsets: {
+        me: {
+          words: ['Student.', 'Developer.', 'Designer.', 'Music Lover.', 'Gamer.'],
+          delay: 2,
+          eraseSpeed: 0.1,
+        }
+      }
+    })
+  ],
 }
