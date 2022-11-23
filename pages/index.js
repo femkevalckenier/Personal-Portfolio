@@ -59,7 +59,7 @@ export default function Home() {
           <div>
             <h3 className='text-3xl py-1 font-semibold dark:text-white underline mt-20'>Experience</h3>
             <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-100'>
-              Here is a brief overview of all IT-technologies I have experience with.
+              Here is a brief overview of all software and languages I have experience with.
             </p>
             <div className='lg:flex gap-10'>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-800 flex-1">
