@@ -45,7 +45,7 @@ export default function Home() {
           </div>
 
           <div className='relative mx-auto object-center mt-10 w-80 h-80'>
-            <Image src={avatar}/>
+            <Image src="https://i.postimg.cc/J0zj3Rm4/avatar.png" width={300} height={300}/>
           </div>
         </section>
 
@@ -64,7 +64,7 @@ export default function Home() {
             </p>
             <div className='lg:flex gap-10'>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-800 flex-1">
-              <Image src={webdev} width={100} height={100} className="mx-auto"/>
+              <Image src="https://i.postimg.cc/zfLzgM9Z/webdev.png" width={100} height={100} className="mx-auto"/>
               <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">
                 Web Development
               </h3>
@@ -75,7 +75,7 @@ export default function Home() {
               <p className='text-gray-800 py-1 dark:text-white'>PHP</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-800 flex-1">
-              <Image src={softwaredev} width={100} height={100} className="mx-auto"/>
+              <Image src="https://i.postimg.cc/Pxw5Bc4z/softwaredev.png" width={100} height={100} className="mx-auto"/>
               <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">
                 Software Development
               </h3>
@@ -86,7 +86,7 @@ export default function Home() {
               <p className='text-gray-800 py-1 dark:text-white'>Python</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-800 flex-1">
-              <Image src={webdesign} width={100} height={100} className="mx-auto"/>
+              <Image src="https://i.postimg.cc/zXJqj39k/webdesign.png" width={100} height={100} className="mx-auto"/>
               <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">
                 Photo & Video Editing
               </h3>
