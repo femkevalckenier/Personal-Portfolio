@@ -114,12 +114,16 @@ export default function Home() {
                     required
                     className='p-2 bg-transparent shadow-lg placeholder-gray-600 rounded-md text-black focus:outline-none dark:text-white dark:border-white dark:placeholder-white'></textarea>
 
-                    <button className='mx-auto mt-5 mb-3 font-bold bg-gradient-to-r from-yellow-500 to-amber-600 text-white px-4 py-2 rounded-md dark:text-black transition ease-in-out hover:scale-105 duration-300'>Submit</button>
+                    <button className='mx-auto mt-5 mb-5 font-bold bg-gradient-to-r from-yellow-500 to-amber-600 text-white px-4 py-2 rounded-md dark:text-black transition ease-in-out hover:scale-105 duration-300'>Submit</button>
                 </form>
             </div>
 
         </section>
       </main>
+      <footer class="p-4 bg-white  shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800">
+        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 Made by <a href="https://www.linkedin.com/in/femke-valckenier/" class="hover:underline">Femke Valckenier</a>
+        </span>
+    </footer>
     </div>
   )
 }
