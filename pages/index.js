@@ -20,7 +20,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='bg-gradient-to-b from-white to-gray-300 px-10 md:px-20 lg:px-40 dark:bg-gradient-to-b dark:from-gray-800 dark:to-gray-900'>
+      <main className='bg-gradient-to-b from-white to-gray-200 px-10 md:px-20 lg:px-40 dark:bg-gradient-to-b dark:from-gray-800 dark:to-gray-900'>
         <section className='min-h-screen'>
           <nav className='py-10 mb-12 flex justify-between'>
             <h1 className='text-5xl dark:text-white font-thin'>FV</h1>
