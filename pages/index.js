@@ -105,14 +105,14 @@ export default function Home() {
           </p>
           <div className='flex flex-col justify-center items-center mt-5'>
                 <form action="https://getform.io/f/9b9d851d-80ce-4db6-b536-d6ac5cd106a0" method="POST" className='flex flex-col w-full md:w-1/2'>
-                    <input type="text" name="name" placeholder='Enter your name' required className='p-2 bg-transparent placeholder-gray-600 shadow-lg rounded-md text-black focus:outline-none dark:text-white dark:border-white dark:placeholder-white'/>
+                    <input type="text" name="name" placeholder='Enter your name' required className='p-2 bg-transparent placeholder-gray-600 shadow-lg rounded-md text-black focus:outline-none dark:text-white dark:border-white dark:placeholder-gray-400'/>
 
-                    <input type="text" name="email" placeholder='Enter your e-mail' required className='my-4 p-2 bg-transparent placeholder-gray-600 shadow-lg rounded-md text-black focus:outline-none dark:text-white dark:border-white dark:placeholder-white'/>
+                    <input type="text" name="email" placeholder='Enter your e-mail' required className='my-4 p-2 bg-transparent placeholder-gray-600 shadow-lg rounded-md text-black focus:outline-none dark:text-white dark:border-white dark:placeholder-gray-400'/>
 
                     <textarea name="message" rows="10" 
                     placeholder='Enter your message...'
                     required
-                    className='p-2 bg-transparent shadow-lg placeholder-gray-600 rounded-md text-black focus:outline-none dark:text-white dark:border-white dark:placeholder-white'></textarea>
+                    className='p-2 bg-transparent shadow-lg placeholder-gray-600 rounded-md text-black focus:outline-none dark:text-white dark:border-white dark:placeholder-gray-400'></textarea>
 
                     <button className='mx-auto mt-5 mb-5 font-bold bg-gradient-to-r from-yellow-500 to-amber-600 text-white px-4 py-2 rounded-md dark:text-black transition ease-in-out hover:scale-105 duration-300'>Submit</button>
                 </form>
